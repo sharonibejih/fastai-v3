@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/file/d/1-1cKI10sq0ANy4k7_kIjoZ-5RZCIGvoy/view?usp=sharing'
 export_file_name = 'fer_model_1.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
 path = Path(__file__).parent
 
 app = Starlette()
